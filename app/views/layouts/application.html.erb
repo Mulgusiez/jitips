@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jitips</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>Jitips</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<h1>Jitips</h1>
 
-  <body>
-    <%= yield %>
-  </body>
+<%= yield %>
+
+<p>A very simple footer</p>
+
+</body>
 </html>
