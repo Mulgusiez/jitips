@@ -1,0 +1,29 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.business-header {
+    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header {
+  text-align: center;
+  color: black;
+}
+
+.header-logo {
+  height: 50vh;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  background-image: image-url('logo_horizontal.png');
+}
+
+.navbar  {
+  background-color: white;
+}
