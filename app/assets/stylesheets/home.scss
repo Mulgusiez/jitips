@@ -1,0 +1,68 @@
+// .navbar  {
+//   background-color: white;
+// }
+
+body {
+    font-size: 1em;
+    font-family: "proxima_nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #333;
+    background-image:linear-gradient(to right, #57C0D5, #5A74B3);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 150px;
+  padding: 30px 0;
+  position: relative;
+}
+
+.logo-header {
+  max-width: 300px;
+}
+
+header h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: 800;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+header h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+header .contact {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 4px;
+    background: #FF9494;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+header .contact:hover {
+    background: #ff6161;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 4;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 3em;
+}
