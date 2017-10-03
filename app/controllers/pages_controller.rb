@@ -2,6 +2,6 @@ class PagesController < ApplicationController
   def home
   end
 
-  def contact
+  def cherche_un_dev
   end
 end

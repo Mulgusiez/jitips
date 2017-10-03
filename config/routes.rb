@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get 'home', to: 'pages#home'
-  get 'contact', to: 'pages#contact'
+  get 'cherche_un_dev', to: 'pages#cherche_un_dev'
   root to: 'pages#home'
 end
