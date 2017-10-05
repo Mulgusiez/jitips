@@ -77,6 +77,18 @@ header #mc_embed_signup .button:hover {
     background: #ff6161;
 }
 
+header .shared-buttons {
+    margin-top: 50px;
+}
+
+header .shared-buttons a img {
+  max-width: 60px;
+  padding: 7px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
 
 footer {
   display: block;
