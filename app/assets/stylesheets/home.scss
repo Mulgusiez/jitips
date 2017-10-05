@@ -31,6 +31,13 @@ header h1 {
 }
 
 header h2 {
+  color: #FF9494;
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+header h3 {
   color: white;
   font-size: 2em;
   font-weight: 200;
@@ -89,6 +96,16 @@ header .shared-buttons a img {
   display: inline;
 }
 
+header .linkedin-profil {
+    margin-top: 50px;
+}
+
+header .linkedin-profil img {
+  max-width: 12em;
+  padding: 10px;
+  border-radius: 50em;
+  display: inline;
+}
 
 footer {
   display: block;
