@@ -8,4 +8,7 @@ class PagesController < ApplicationController
 
   def looking_for_a_CTO
   end
+
+  def get_some_news_from_us
+  end
 end
